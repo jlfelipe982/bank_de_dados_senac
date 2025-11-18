@@ -182,10 +182,10 @@ Eles não alteram a estrutura, apenas inserem, atualizam, consultam e removem in
 
 Principais comandos DML:
 
-INSERT – Inserir dados
-UPDATE – Atualizar dados
-DELETE – Excluir dados
-SELECT – Consultar dados (às vezes classificado como DQL, mas costuma ser ensinado junto com DML)
+- INSERT – Inserir dados
+- UPDATE – Atualizar dados
+- DELETE – Excluir dados
+- SELECT – Consultar dadoS
 
 ##     Como executar
 
