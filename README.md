@@ -156,7 +156,38 @@ JOIN autores a ON la.id_autor = a.id_autor;
 Listar usuários cadastrados
 SELECT * FROM usuarios;
 
-## Como executar
+## Comandos DDL e DML - Explicação Completa com Exemplos
+
+No SQL, os comandos são divididos em categorias de acordo com sua função.
+As duas categorias mais importantes são:
+
+- DDL – Data Definition Language (Linguagem de Definição de Dados)
+- DML – Data Manipulation Language (Linguagem de Manipulação de Dados)
+
+## DDL - Data Definition Language
+
+Os comandos DDL são usados para criar, alterar e excluir estruturas do banco de dados, como tabelas, colunas e o próprio banco.
+Esses comandos modificam a estrutura, não os dados.
+
+Principais comandos DDL:
+
+- CREATE – Criar banco, tabela ou outro objeto.
+- ALTER – Alterar uma estrutura existente.
+- DROP – Excluir uma tabela, coluna ou banco de dados.
+
+## DML — Data Manipulation Language
+
+Os comandos DML são usados para manipular os dados dentro das tabelas.
+Eles não alteram a estrutura, apenas inserem, atualizam, consultam e removem informações.
+
+Principais comandos DML:
+
+INSERT – Inserir dados
+UPDATE – Atualizar dados
+DELETE – Excluir dados
+SELECT – Consultar dados (às vezes classificado como DQL, mas costuma ser ensinado junto com DML)
+
+##     Como executar
 
 Instale o MySQL Server
 Abra o MySQL Workbench ou terminal.
